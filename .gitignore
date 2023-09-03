@@ -1,0 +1,30 @@
+# Ignore build directory
+/build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+# Binaries and libraries
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dylib
+*.dll
+
+# Editor/IDE specific
+*.swp
+*.swo
+*~
+*.sublime-*
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
