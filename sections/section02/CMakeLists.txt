@@ -1,0 +1,2 @@
+add_subdirectory(SomeExample)
+add_subdirectory(TheNextExample)

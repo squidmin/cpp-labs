@@ -6,5 +6,5 @@ project(cpp-labs)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add subdirectories for examples.
-add_subdirectory(examples)
+# Add subdirectories for sections.
+add_subdirectory(sections)
