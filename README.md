@@ -14,14 +14,18 @@ Navigate to the project root.
 Create a `build` directory and navigate to it:
 
 ```shell
-mkdir build
-cd build
+mkdir build && cd build
 ```
 
 Build the project:
 
 ```shell
 cmake ..
+```
+
+Then, in the same directory:
+
+```shell
 make
 ```
 
@@ -30,7 +34,13 @@ make
 `cd` to the directory of the example:
 
 ```shell
-cd ./sections/section01/HelloWorld
+cd ./sections/sectionXX/ExecutableName
+```
+
+e.g.,
+
+```shell
+cd ./sections/section01/NextExample
 ```
 
 Run the executable:
@@ -42,7 +52,7 @@ Run the executable:
 e.g.,
 
 ```shell
-./HelloWorld
+./NextExample
 ```
 
 <img src="./docs/img/build_and_run.gif" alt="Build and run an executable" width="800px">
