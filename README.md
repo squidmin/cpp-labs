@@ -1,6 +1,6 @@
 # cpp-labs
 
-### Setup
+## Setup
 
 1. Install CMake and a C++ compiler.
 2. Navigate to the project root.
@@ -18,12 +18,14 @@
     make
     ```
 
-### Run an executable
+## Run an executable
+
+<img src="./docs/img/build_and_run.gif" alt="Build and run an executable" width="800px">
 
 `cd` to the directory of the example:
 
 ```shell
-cd /Users/username/path/to/cpp-labs/build/examples/chapter01/hello_world
+cd ./examples/chapter01/hello_world
 ```
 
 Run the executable:
