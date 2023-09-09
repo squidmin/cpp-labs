@@ -1,5 +1,7 @@
 # cpp-labs
 
+C++ sandbox project
+
 ## Setup
 
 1. Install CMake and a C++ compiler.
@@ -11,7 +13,7 @@
      cd build
      ```
 
-4. Configure and build the project
+4. Configure and build the project.
 
     ```shell
     cmake ..
@@ -19,8 +21,6 @@
     ```
 
 ## Run an executable
-
-<img src="./docs/img/build_and_run.gif" alt="Build and run an executable" width="800px">
 
 `cd` to the directory of the example:
 
@@ -33,3 +33,5 @@ Run the executable:
 ```shell
 ./hello_world
 ```
+
+<img src="./docs/img/build_and_run.gif" alt="Build and run an executable" width="800px">
