@@ -1,3 +1,4 @@
 add_subdirectory(01_HelloWorld)
 add_subdirectory(02_DataTypes)
 add_subdirectory(03_Input)
+add_subdirectory(04_BinaryArithmeticOperators)

@@ -1,0 +1,1 @@
+add_executable(BinaryArithmeticOperators main.cpp BinaryArithmeticOperators.cpp)
