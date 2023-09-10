@@ -29,6 +29,20 @@ Then, in the same directory:
 make
 ```
 
+To compile only a specific executable:
+
+```shell
+make ExecutableName
+```
+
+e.g.,
+
+```shell
+make IncrementAndDecrementOperators
+```
+
+<img src="./img/gif/compile_specific_executable.gif" alt="Compiling a specific executable." width="800px">
+
 ## Run an executable
 
 `cd` to the directory of the example:
