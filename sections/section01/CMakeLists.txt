@@ -1,2 +1,2 @@
-add_subdirectory(HelloWorld)
-add_subdirectory(NextExample)
+add_subdirectory(01_HelloWorld)
+add_subdirectory(02_DataTypes)

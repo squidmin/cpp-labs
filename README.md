@@ -34,13 +34,13 @@ make
 `cd` to the directory of the example:
 
 ```shell
-cd ./sections/sectionXX/ExecutableName
+cd ./sections/sectionXX/YY_ExecutableName
 ```
 
 e.g.,
 
 ```shell
-cd ./sections/section01/NextExample
+cd ./sections/section01/02_DataTypes
 ```
 
 Run the executable:
@@ -52,7 +52,7 @@ Run the executable:
 e.g.,
 
 ```shell
-./NextExample
+./DataTypes
 ```
 
 <img src="./docs/img/build_and_run.gif" alt="Build and run an executable" width="800px">

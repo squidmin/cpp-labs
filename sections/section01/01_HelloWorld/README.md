@@ -62,14 +62,14 @@ e.g.,
 #### `examples/chapter01/CMakeLists.txt`
 
 ```cmake
-add_subdirectory(HelloWorld)
-add_subdirectory(NextSection)
-add_subdirectory(YetAnotherSection)
+add_subdirectory(01_HelloWorld)
+add_subdirectory(02_NextSection)
+add_subdirectory(03_YetAnotherSection)
 ```
 
 Add a `CMakeLists.txt` for specific sections:
 
-#### `examples/chapterXX/SectionName/CMakeLists.txt`
+#### `examples/chapterXX/01_SectionName/CMakeLists.txt`
 
 ```cmake
 add_executable(SectionName main.cpp SectionName.cpp)
@@ -77,7 +77,7 @@ add_executable(SectionName main.cpp SectionName.cpp)
 
 e.g.,
 
-#### `examples/chapter01/HelloWorld/CMakeLists.txt`
+#### `examples/chapter01/02_HelloWorld/CMakeLists.txt`
 
 ```cmake
 add_executable(HelloWorld main.cpp HelloWorld.cpp)

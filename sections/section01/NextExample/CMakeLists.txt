@@ -1,1 +1,0 @@
-add_executable(NextExample main.cpp NextExample.cpp)
