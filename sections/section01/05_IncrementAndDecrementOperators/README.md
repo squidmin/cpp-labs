@@ -78,4 +78,4 @@ It simply calls the `run()` function from the `IncrementAndDecrementOperators.cp
 
 ## Run the example
 
-
+<img src="./img/gif/build_and_run.gif" alt="Running the example." width="800px">
