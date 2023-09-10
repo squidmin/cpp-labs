@@ -1,1 +1,2 @@
 add_executable(BinaryArithmeticOperators main.cpp BinaryArithmeticOperators.cpp)
+add_executable(Monolithic Monolithic.cpp)

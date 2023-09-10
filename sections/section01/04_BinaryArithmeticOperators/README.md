@@ -19,26 +19,12 @@ Binary arithmetic operators are those that require two operands. Here are the ba
 
 Below is a simple C++ program that demonstrates the use of binary arithmetic operators:
 
-#### `BinaryArithmeticOperators.h`
+#### `main.cpp`
 
 ```cpp
-#pragma once
-
 #include <iostream>
 
-class BinaryArithmeticOperators {
-public:
-    void run();
-};
-```
-
-#### `BinaryArithmeticOperators.cpp`
-
-```cpp
-#include "BinaryArithmeticOperators.h"
-
-void BinaryArithmeticOperators::run()
-{
+int main() {
     int a = 2, b = 4, c = 10, intResult;
     double d = 2.0, e = 4.4, f = 12.8, doubleResult;
     float g = 2.0f, h = 4.4f, i = 12.8f, floatResult;
@@ -51,23 +37,95 @@ void BinaryArithmeticOperators::run()
 }
 ```
 
-#### `main.cpp`
-
-```cpp
-#include "BinaryArithmeticOperators.h"
-
-int main() {
-    BinaryArithmeticOperators instance;
-    instance.run();
-    return 0;
-}
-```
-
 ---
 
 ## Run the executable
 
-<img src="./img/gif/build_and_run.gif" alt="Build and run the 'Binary Arithmetic Operators' example." width="800px">
+<img src="./img/gif/run_monolithic.gif" alt="Build and run the 'Binary Arithmetic Operators' example." width="800px">
+
+---
+
+## Refactoring for modularity
+
+This refactored example has separated the arithmetic operations into individual functions, which are declared in the `ArithmeticOperations.h` header file and defined in the `ArithmeticOperations.cpp` source file.
+
+The `main.cpp` file demonstrates the usage of these functions.
+
+>Note: In the implementation of the divide and modulus functions, division by zero is handled by returning `0` for simplicity. In a more comprehensive application, you'd likely want more robust error handling.
+
+This refactored approach promotes code modularity and makes the operations reusable across different parts of the application or even different applications.
+
+### Source code
+
+#### `BinaryArithmeticOperators.h`
+
+```cpp
+#ifndef ARITHMETIC_OPERATIONS_H
+#define ARITHMETIC_OPERATIONS_H
+
+// Function declarations
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+int divide(int a, int b);
+int modulus(int a, int b);
+
+#endif // ARITHMETIC_OPERATIONS_H
+```
+
+#### `BinaryArithmeticOperators.cpp`
+
+```cpp
+#include "BinaryArithmeticOperators.h"
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int multiply(int a, int b) {
+    return a * b;
+}
+
+int divide(int a, int b) {
+    if (b != 0) return a / b;
+    // Handling division by zero (for simplicity, returning 0)
+    return 0;
+}
+
+int modulus(int a, int b) {
+    if (b != 0) return a % b;
+    // Handling modulus by zero (for simplicity, returning 0)
+    return 0;
+}
+```
+
+#### `main.cpp`
+
+```cpp
+#include <iostream>
+#include "BinaryArithmeticOperators.h"
+
+int main() {
+    int a = 10, b = 20;
+
+    std::cout << "a = " << a << ", b = " << b << std::endl;
+    std::cout << "a + b = " << add(a, b) << std::endl;       // Addition
+    std::cout << "a - b = " << subtract(a, b) << std::endl;  // Subtraction
+    std::cout << "a * b = " << multiply(a, b) << std::endl;  // Multiplication
+    std::cout << "a / b = " << divide(a, b) << std::endl;    // Division
+    std::cout << "a % b = " << modulus(a, b) << std::endl;   // Modulus
+
+    return 0;
+}
+```
+
+## Run the executable
+
+<img src="./img/gif/run_modular.gif" alt="Run the example." width="800px">
 
 ---
 

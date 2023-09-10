@@ -1,8 +1,11 @@
-#pragma once
+#ifndef ARITHMETIC_OPERATIONS_H
+#define ARITHMETIC_OPERATIONS_H
 
-#include <iostream>
+// Function declarations
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+int divide(int a, int b);
+int modulus(int a, int b);
 
-class BinaryArithmeticOperators {
-public:
-    void run();
-};
+#endif // ARITHMETIC_OPERATIONS_H
