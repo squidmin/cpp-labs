@@ -4,10 +4,10 @@
 
 std::optional<int> Example04::verify_is_integer(const std::string& input_str) {
     std::istringstream stream(input_str);
-    int age;
+    int int_val;
     std::string temp;
-    if (stream >> age && !(stream >> temp)) {  // Ensure entire input is an integer
-        return age;
+    if (stream >> int_val && !(stream >> temp)) {  // Ensure entire input is an integer
+        return int_val;
     } else {
         return std::nullopt;
     }
