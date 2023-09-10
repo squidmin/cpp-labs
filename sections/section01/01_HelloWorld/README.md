@@ -109,3 +109,5 @@ After running the executable, you should see text output:
 ```
 Hello, World!
 ```
+
+<img src="./img/gif/build_and_run.gif" alt="Build and run the 'Hello world' example." width="800px">
