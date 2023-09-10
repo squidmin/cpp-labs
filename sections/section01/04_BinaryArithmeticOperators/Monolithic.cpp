@@ -10,4 +10,17 @@ int main() {
     std::cout << intResult << std::endl;
     intResult = c / a;
     std::cout << intResult << std::endl;
+    intResult = c / b;
+    std::cout << intResult << std::endl;
+    floatResult = g / a;
+    std::cout << floatResult << std::endl;
+    floatResult = h / g;
+    std::cout << floatResult << std::endl;
+    doubleResult = a * d;
+    std::cout << doubleResult << std::endl;
+    doubleResult = f / a;
+    std::cout << doubleResult << std::endl;
+    doubleResult = e + h;
+    std::cout << doubleResult << std::endl;
+    return 0;
 }

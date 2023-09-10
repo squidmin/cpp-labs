@@ -146,5 +146,5 @@ In the example above:
 Ensure the divisor is not zero when using the division (`/`) or modulus (`%`) operators.
 Dividing by zero leads to undefined behavior.
 
-Remember that dividing integers will not yield a floating-point result.
+Dividing integers will not yield a floating-point result.
 If you need a fractional result, one or both of the operands must be a floating-point number.
