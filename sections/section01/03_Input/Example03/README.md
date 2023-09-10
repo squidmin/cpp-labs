@@ -1,6 +1,6 @@
 # Input: Example 3
 
-This code first prompts the user to enter a `string` value, capturing the input with std::getline() to account for string containing spaces.
+This code first prompts the user to enter a `string` value, capturing the input with `std::getline()` to account for string containing spaces.
 
 Then, it prompts the user to input an `int` value using the `>>` extraction operator.
 
@@ -57,4 +57,4 @@ int main()
 }
 ```
 
-<img src="./img/gif/build_and_run.gif" alt="" width="px">
+<img src="./img/gif/build_and_run.gif" alt="Build and run a 'Console Input' example." width="800px">
