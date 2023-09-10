@@ -49,7 +49,7 @@ The "Hello, World!" program is often used as a simple introduction to a programm
 
 ### 2. Create the CMake configuration
 
-#### `examples/chapterXX/CMakeLists.txt`
+#### `sections/sectionXX/CMakeLists.txt`
 
 ```cmake
 add_subdirectory(Section01)
@@ -59,7 +59,7 @@ add_subdirectory(Section02)
 
 e.g.,
 
-#### `examples/chapter01/CMakeLists.txt`
+#### `sections/section01/CMakeLists.txt`
 
 ```cmake
 add_subdirectory(01_HelloWorld)
@@ -69,7 +69,7 @@ add_subdirectory(03_YetAnotherSection)
 
 Add a `CMakeLists.txt` for specific sections:
 
-#### `examples/chapterXX/01_SectionName/CMakeLists.txt`
+#### `sections/sectionXX/YY_SectionName/CMakeLists.txt`
 
 ```cmake
 add_executable(SectionName main.cpp SectionName.cpp)
@@ -77,7 +77,7 @@ add_executable(SectionName main.cpp SectionName.cpp)
 
 e.g.,
 
-#### `examples/chapter01/02_HelloWorld/CMakeLists.txt`
+#### `sections/section01/02_HelloWorld/CMakeLists.txt`
 
 ```cmake
 add_executable(HelloWorld main.cpp HelloWorld.cpp)
@@ -92,7 +92,7 @@ mkdir build
 cd build
 cmake ..
 make
-cd sections/sectionXX/ExecutableName
+cd ./sections/sectionXX/ExecutableName
 ./ExecutableName
 ```
 
