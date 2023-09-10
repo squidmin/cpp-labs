@@ -92,10 +92,11 @@ mkdir build
 cd build
 cmake ..
 make
-./SectionName
+cd sections/sectionXX/ExecutableName
+./ExecutableName
 ```
 
-Replace `SectionName` with the actual section name, e.g.:
+Replace `ExecutableName` with the actual name of the executable, e.g.:
 
 ```shell
 mkdir build
