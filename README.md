@@ -41,7 +41,7 @@ e.g.,
 make IncrementAndDecrementOperators
 ```
 
-<img src="./img/gif/compile_specific_executable.gif" alt="Compiling a specific executable." width="800px">
+<img src="./sections/section01/05_IncrementAndDecrementOperators/img/gif/compile_specific_executable.gif" alt="Compiling a specific executable." width="800px">
 
 ## Run an executable
 
