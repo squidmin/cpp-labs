@@ -78,6 +78,8 @@ int main()
 }
 ```
 
+<img src="./img/gif/build_and_run.gif" alt="Build and run the 'C++ 17 optional' example." width="800px">
+
 ---
 
 ## Explanation
