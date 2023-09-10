@@ -1,0 +1,6 @@
+#ifndef OTHER_UNARY_OPERATORS_H
+#define OTHER_UNARY_OPERATORS_H
+
+int run();
+
+#endif // OTHER_UNARY_OPERATORS_H

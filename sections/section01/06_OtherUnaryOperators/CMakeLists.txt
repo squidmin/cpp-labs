@@ -1,0 +1,1 @@
+add_executable(OtherUnaryOperators main.cpp OtherUnaryOperators.cpp)
