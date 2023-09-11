@@ -1,2 +1,2 @@
 add_subdirectory(01_IfStatement)
-add_subdirectory(02_TheNextExample)
+add_subdirectory(02_NestedIfStatement)
