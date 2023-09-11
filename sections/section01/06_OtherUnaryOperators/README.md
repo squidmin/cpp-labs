@@ -1,6 +1,6 @@
 # Other unary operators
 
-## Unary Operators and PolyMorphism in C++
+## Unary Operators and Polymorphism in C++
 
 Besides the unary prefix and postfix increment and decrement operators, C++ supports several other unary operators, including `+`, `-`, and `&`.
 
