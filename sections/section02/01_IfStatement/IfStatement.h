@@ -1,6 +1,6 @@
 #pragma once
 
 #include <iostream>
-#include "ExampleStruct.h"
+#include "IfStatement.h"
 
 int run();
