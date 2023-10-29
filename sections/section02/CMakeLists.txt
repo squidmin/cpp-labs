@@ -1,2 +1,4 @@
 add_subdirectory(01_IfStatement)
 add_subdirectory(02_NestedIfStatement)
+add_subdirectory(03_SwitchStatement)
+add_subdirectory(04_IterationWithLoops)

@@ -1,0 +1,1 @@
+add_executable(WhileLoops main.cpp WhileLoops.cpp)

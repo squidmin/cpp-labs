@@ -121,6 +121,12 @@ int main() {
 
 ---
 
+## Run the source code
+
+<img src="./img/gif/nested_if_statement-build_and_run.gif" alt="Run the source code." width="800px">
+
+---
+
 ## Best Practices
 
 1. **Indentation**: Always use consistent indentation. This helps in visually identifying blocks of code corresponding to each `if` or `else` condition.

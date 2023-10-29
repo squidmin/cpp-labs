@@ -1,0 +1,5 @@
+add_subdirectory(01_WhileLoops)
+add_subdirectory(02_ForLoops)
+add_subdirectory(03_DoWhileLoops)
+add_subdirectory(04_Counters)
+add_subdirectory(05_AccumulatorLoops)
